@@ -5,10 +5,29 @@
     <link rel="icon" type="image/svg+xml" href="/portfolio/aj.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ashis Jena | Frontend Developer</title>
+  
+    <link rel="manifest" href="/portfolio/manifest.json">
+  
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="AJ Portfolio">
+    <link rel="apple-touch-icon" href="/portfolio/aj.png">
+
+    <meta name="theme-color" content="#000000">
     <script type="module" crossorigin src="/portfolio/assets/index-rUJaDFg8.js"></script>
     <link rel="stylesheet" crossorigin href="/portfolio/assets/index-CQ1KIHX3.css">
   </head>
   <body>
     <div id="root"></div>
+  
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/service-worker.js')
+            .then((reg) => console.log('Service worker registered.', reg))
+            .catch((err) => console.log('Service worker registration failed:', err));
+        });
+      }
+    </script>
   </body>
 </html>
