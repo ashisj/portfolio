@@ -5,11 +5,11 @@ const DYNAMIC_CACHE = 'dynamic-cache-v1';
 const STATIC_ASSETS = [
   '/',
   '/index.html',
-  '/manifest.json',
-  '/aj.png',
-  '/src/main.tsx',
-  '/src/App.tsx',
-  '/src/index.css'
+  '/portfolio/manifest.json',
+  '/portfolio/aj.png',  
+  '/portfolio/src/main.tsx',
+  '/portfolio/src/App.tsx',
+  '/portfolio/src/index.css'
 ];
 
 // Cache static assets during installation

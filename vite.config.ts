@@ -17,12 +17,12 @@ export default defineConfig({
         theme_color: '#000000',
         icons: [
           {
-            src: 'aj.png',
+            src: 'portfolio/aj.png',
             sizes: '192x192',
             type: 'image/png'
           },
           {
-            src: 'aj.png',
+            src: 'portfolio/aj.png',
             sizes: '512x512',
             type: 'image/png'
           }

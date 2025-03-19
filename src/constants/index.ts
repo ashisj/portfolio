@@ -110,7 +110,5 @@ interface Contact {
 export const CONTACT: Contact = {
   address: "Bangalore, India",
   phoneNo: "+91-9861616677",
-  email: "ashisjenamfs@gmail.com",
+  email: "ashis.jena96@gmail.com",
 };
-
-export const ashis =  "jena";
