@@ -7,11 +7,11 @@
   "hero": {
     "name": "Ashis Jena",
     "title": "Frontend Developer",
-    "content": "I am a passionate Senior Software Engineer with over 6+ years of expertise in crafting advanced user interfaces. Proficient in responsive UI design, I have a strong foundation in frontend frameworks and technologies. My goal is to leverage my skills in creating seamless user experiences and drive innovation in web development."
+    "content": "I am a passionate Senior Software Engineer with over 7+ years of experience in crafting advanced user interfaces. Proficient in responsive UI design, microfrontend architecture, and performance optimization, I specialize in creating seamless user experiences that drive business growth and innovation in web development."
   },
   "about": {
     "heading": "About Me",
-    "content": "I am a dedicated Senior Software Engineer with a focus on frontend development. With over 6+ years of professional experience, I have honed my skills in creating advanced, responsive user interfaces. My expertise spans across various frontend frameworks and technologies, allowing me to craft seamless user experiences. I am particularly skilled in microfront-end architecture, performance optimization, and full-stack development. My journey in software engineering is driven by a passion for innovation and a commitment to delivering high-quality solutions that enhance user interaction and drive business growth."
+    "content": "I am a dedicated Senior Software Engineer with a strong focus on frontend development. With over 7 years of professional experience, I have honed my skills in building advanced, responsive user interfaces and scalable web applications. My expertise includes microfrontend architecture, performance optimization, and full-stack development. I am passionate about leveraging modern technologies to deliver high-quality solutions that enhance user interaction, improve system efficiency, and drive business growth."
   },
   "experiences": {
     "heading": "Experience",
@@ -20,9 +20,9 @@
         "year": "June 2022 - Present",
         "role": "Senior Software Engineer",
         "company": "BIZONGO, Bangalore",
-        "description": "Led implementation of microfront-end architecture, improved app performance, and spearheaded Flutter-based mobile app development. Implemented Google OAuth, reCaptcha, and Firebase Cloud Messaging.",
+        "description": "Spearheaded the implementation of microfrontend architecture, reducing app load time by 80% and improving scalability. Led the development of a Flutter-based mobile app, increasing user acquisition by 25%. Integrated Google OAuth, reCaptcha, and Firebase Cloud Messaging for seamless user onboarding and enhanced security.",
         "technologies": [
-          "Javascript",
+          "JavaScript",
           "React",
           "Redux",
           "HTML",
@@ -38,7 +38,7 @@
         "year": "October 2020 - June 2022",
         "role": "Senior Software Engineer",
         "company": "SYMPHONY RETAIL AI, Remote",
-        "description": "Designed and developed end-to-end solutions using Vue.js and Spring. Contributed to and maintained internal libraries, and mentored offshore team in Vue.js implementation.",
+        "description": "Designed and developed end-to-end solutions using Vue.js and Spring, improving system efficiency by 35%. Contributed to internal libraries and mentored offshore teams, accelerating development by 30% and enhancing code quality.",
         "technologies": [
           "Java",
           "Spring",
@@ -55,7 +55,7 @@
         "year": "September 2019 - October 2020",
         "role": "Software Consultant",
         "company": "iPromoteU, Remote",
-        "description": "Designed responsive web applications using React and SASS. Streamlined development process by creating mock APIs and integrating with REST APIs.",
+        "description": "Designed and developed responsive web applications using React and SASS, improving cross-platform compatibility by 60%. Streamlined the development process by optimizing API workflows, reducing integration time by 30%.",
         "technologies": [
           "JavaScript",
           "React",
@@ -70,7 +70,7 @@
         "year": "September 2018 - August 2019",
         "role": "Software Engineer",
         "company": "Mindfire Solutions, Bhubaneswar",
-        "description": "Developed a full-stack finance report generation application. Worked with various technologies to create comprehensive solutions.",
+        "description": "Developed a full-stack finance report generation application, increasing report accuracy by 45% through optimized database queries and efficient backend logic. Collaborated with cross-functional teams to deliver comprehensive solutions.",
         "technologies": [
           "JavaScript",
           "jQuery",
@@ -90,23 +90,23 @@
     "heading": "Projects",
     "content": [
       {
-        "title": "AD GENERATIVE TOOL",
+        "title": "Ad Generative Tool",
         "description": "Developed an AI-powered tool for generating ad campaigns and logo designs, reducing ad creation time by 70% and increasing campaign effectiveness by 40%.",
         "technologies": ["Canvas", "React", "OpenAI", "DALL·E"]
       },
       {
-        "title": "NEXT BIZONGO PLATFORM",
-        "description": "Architected and implemented the core structure for a new e-commerce platform, utilizing microfront-end architecture to improve scalability and reduce time-to-market by 50%.",
+        "title": "Next Bizongo Platform",
+        "description": "Architected and implemented the core structure for a new e-commerce platform, utilizing microfrontend architecture to improve scalability and reduce time-to-market by 50%.",
         "technologies": ["React", "Webpack5", "Microfrontend", "AWS"]
       },
       {
-        "title": "SYMPHONY RETAIL AI SOLUTIONS",
+        "title": "Symphony Retail AI Solutions",
         "description": "Designed and developed end-to-end solutions using Vue.js and Spring, improving system efficiency by 35%.",
         "technologies": ["Vue.js", "Spring", "Oracle", "Azure"]
       },
       {
         "title": "iPromoteU Web Applications",
-        "description": "Designed responsive web applications using React and SASS, improving cross-platform compatibility by 60%.",
+        "description": "Designed and developed responsive web applications using React and SASS, improving cross-platform compatibility by 60%.",
         "technologies": ["React", "Redux", "SASS", "RESTful APIs"]
       }
     ]
@@ -115,6 +115,6 @@
     "heading": "Get in Touch",
     "address": "Bangalore, India",
     "phoneNo": "+91-9861616677",
-    "email": "ashisjenamfs@gmail.com"
+    "email": "ashis.jena96@gmail.com"
   }
 }
