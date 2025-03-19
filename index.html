@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/portfolio/aj.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ashis Jena | Frontend Developer</title>
+    <meta name="description" content="Ashis Jena's Portfolio - Full Stack Developer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>Ashis Jena</title>
   
     <link rel="manifest" href="/portfolio/manifest.json">
   
@@ -14,18 +17,26 @@
     <link rel="apple-touch-icon" href="/portfolio/aj.png">
 
     <meta name="theme-color" content="#000000">
-    <script type="module" crossorigin src="/portfolio/assets/index-Bi6DHQUa.js"></script>
+    <script type="module" crossorigin src="/portfolio/assets/index-DIWZDhlm.js"></script>
+    <link rel="modulepreload" crossorigin href="/portfolio/assets/react-vendor-CqEpiFl-.js">
+    <link rel="modulepreload" crossorigin href="/portfolio/assets/framer-motion-CpmrI5-i.js">
+    <link rel="modulepreload" crossorigin href="/portfolio/assets/i18n-CKHtUIg0.js">
+    <link rel="modulepreload" crossorigin href="/portfolio/assets/icons-qUw46vsM.js">
     <link rel="stylesheet" crossorigin href="/portfolio/assets/index-SILkmiFQ.css">
-  </head>
+  <link rel="manifest" href="/portfolio/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/portfolio/registerSW.js"></script></head>
   <body>
     <div id="root"></div>
   
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/service-worker.js')
-            .then((reg) => console.log('Service worker registered.', reg))
-            .catch((err) => console.log('Service worker registration failed:', err));
+          navigator.serviceWorker.register('/sw.js')
+            .then(registration => {
+              console.log('ServiceWorker registration successful');
+            })
+            .catch(err => {
+              console.log('ServiceWorker registration failed: ', err);
+            });
         });
       }
     </script>
